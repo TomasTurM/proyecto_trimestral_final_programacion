@@ -1,0 +1,65 @@
+.background_tabInicio {
+	background-color:#7986cb;
+}
+
+.footer {
+	position:absolute;
+	bottom:0px; 
+}
+
+.tabla_anuncios {
+	padding-top:11.25px;
+	padding-bottom:11.25px;  
+}
+
+.sin_margen {
+	margin:0px; 
+}
+
+.sin_padding {
+	padding-top:0px; 
+	padding-bottom:0px; 
+	padding-left:0px; 
+	padding-right:0px; 
+}
+
+.auto_margen {
+	margin:auto;
+}
+
+.texto_itsv {
+	margin-top:42.5px; 
+}
+
+.frase_itsv {
+	margin-top:0px;
+	margin-bottom:15px;  
+}
+
+.logo_itsv {
+	height:150px;
+	width:278px;  
+	margin:auto; 
+	margin-top:15px;
+	margin-bottom:15px; 
+}
+
+.texto_anuncios {
+	margin:5px; 
+	padding-top:5px; 
+	margin-left:10px; 
+}
+
+.margen_anuncios {
+	margin:25px;
+	margin-left:85px;
+	margin-right:85px; 
+}
+
+#boton_enviar {
+	margin: 0 auto !important;
+}
+
+.margin_5px {
+	margin:5px; 
+}

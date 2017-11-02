@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>ITS Villada</title>
+
+	<!-- CSS -->
+	<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+  <!-- Iconos -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- NavBar -->
+	<nav class="nav-extended indigo darken-2">
+		<div class="nav-wrapper">
+      <div class="row sin_margen">
+        <div class="col s2">
+          <img src="src/img/logo.png" alt="Logo ITSV" class="white logo_itsv valign-wrapper center-align hoverable">
+        </div>
+        <div class="col s10 left-align">
+          <div class="container">
+            <h3 class="white-text text-lighten-1 texto_itsv">Instituto Tecnico Salesiano Villada</h3>
+            <h5 class="white-text text-lighten-1 frase_itsv">Formando Buenos Cristianos, Honrados Ciudadanos y Eficientes Técnicos para el Servicio</h5>
+          </div>
+        </div>
+      </div>
+		</div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent row z-depth-2">
+        <li class="tab col s2 m2 offset-m1"><a class="active" onclick="cargar('pag_inicio.html')">Inicio</a></li>
+        <li class="tab col s2 m2"><a onclick="cargar('pp.html')">Informacion</a></li>
+        <li class="tab disabled col s2 m2"><a href="#tabInscripciones">Inscripciones 2018</a></li>
+        <li class="tab col s2 m2"><a href="#tabCampus">Campus Virtual</a></li>
+        <li class="tab col s2 m2"><a href="#tabContactenos">Contactenos</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="tabInicio" class="background_tabInicio"></div>
+  <div id="tabInformacion"></div>
+  <div id="tabInscripciones"></div>
+  <div id="tabCampus"></div>
+	<div id="tabContactenos"></div>
+
+    <!-- Footer -->
+    <footer class="page-footer indigo">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">ITS Villada</h5>
+            <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet risus vitae nisi rhoncus eleifend. Duis dignissim lorem ut lacus pellentesque volutpat. Nulla ullamcorper metus vitae rutrum scelerisque.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2017 Copyright ITS Villada
+            <a class="grey-text text-lighten-4 right" href="#!">Mas Links</a>
+          </div>
+        </div>
+    </footer>
+
+
+
+  <!-- FireBase -->
+  <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script>
+  $(document).ready(cargar('pag_inicio.html'))
+  function cargar(pag){
+    $("#tabInicio").load(pag);  
+  }
+  </script>
+
+</body>
+</html>
