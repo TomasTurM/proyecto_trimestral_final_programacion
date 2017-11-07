@@ -1,0 +1,8 @@
+var titulo_anuncio = "<h2>%titulo%</h2>"
+var imagen_anuncio = "<img src='%img_anuncio%'>"
+var fecha_anuncio = "<span>%fecha%</span>"
+var hora_anuncio = "<span>%data%"
+var publicador_anuncio = "<div class='chip'><img src='%img_usuario%' alt='Contact Person'>%nom_usuario%</div>"
+var contenido_anuncio = "%contenido%"
+var archAdj_anuncio = ""
+var comentarios_anuncio = ""
