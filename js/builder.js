@@ -1,0 +1,4 @@
+// Esqueleto Anuncio
+var anuncio {
+	
+}
