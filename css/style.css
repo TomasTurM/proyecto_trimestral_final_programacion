@@ -7,11 +7,6 @@
 	bottom:0px; 
 }
 
-.tabla_anuncios {
-	padding-top:11.25px;
-	padding-bottom:11.25px;  
-}
-
 .sin_margen {
 	margin:0px; 
 }
@@ -50,10 +45,11 @@
 	margin-left:10px; 
 }
 
-.margen_anuncios {
+.tabla_anuncios {
 	margin:25px;
 	margin-left:85px;
 	margin-right:85px; 
+	padding-bottom:15px; 
 }
 
 #boton_enviar {
@@ -75,6 +71,48 @@
 
 .icons_pa {
 	margin-right:5px; 
+}
+
+.style_anuncios {
+	padding:0px;
+	margin:15px; 
+	margin-bottom:0px; 
+	padding-bottom:1px; 
+}
+
+.divider_2 {
+	margin-left:15px;
+	margin-right:15px; 
+}
+
+.menos_bottom {
+	margin-bottom:7.5px; 
+}
+
+#chip {
+	margin-left:11.25px;
+	margin-right:11.25px; 
+}
+
+#cont_anuncio {
+	padding:25px;	
+}
+
+#padding_comment {
+	padding-right:25px;
+	padding-left:25px; 
+	padding-top:10px;
+	padding-bottom:10px;  
+}
+
+#padding_text {
+	padding-right:25px;
+	padding-left:25px; 
+	padding-bottom:10px;  
+}
+
+#cont_comment {
+	margin-bottom:10px;  
 }
 
 li {
