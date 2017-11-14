@@ -74,10 +74,9 @@
 }
 
 .style_anuncios {
-	padding:0px;
+	padding:1px;
 	margin:15px; 
 	margin-bottom:0px; 
-	padding-bottom:1px; 
 }
 
 .divider_2 {
@@ -89,6 +88,11 @@
 	margin-bottom:7.5px; 
 }
 
+.collection {
+	margin-right:15px; 
+	margin-left:15px;
+}
+
 #chip {
 	margin-left:11.25px;
 	margin-right:11.25px; 
@@ -96,6 +100,7 @@
 
 #cont_anuncio {
 	padding:25px;	
+	padding-bottom:15px; 
 }
 
 #padding_comment {
@@ -113,6 +118,10 @@
 
 #cont_comment {
 	margin-bottom:10px;  
+}
+
+#row_file {
+	padding-left:15px; 
 }
 
 li {

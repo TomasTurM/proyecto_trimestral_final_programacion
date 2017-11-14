@@ -2,12 +2,13 @@
 var anuncio = {
 	"anuncios": [
 		{"titulo": "",
-		"imagen": ","
 		"fecha": "",
 		"hora": "",
 		"publicador": "",
 		"contenido": "",
-		"arch_adj": "",
+		"arch_adj": [],
+		"me_gusta": null,
+		"marcado": null,
 		"comentarios": [{
 			"usuario": "",
 			"comentario": "",
