@@ -8,7 +8,7 @@ var config = {
     messagingSenderId: "542503277396"
 };
 
-$(document).ready(firebase.initializeApp(config);
+$(document).ready(firebase.initializeApp(config));
 
   $(document).ready(function(){
     $('#tabs_principal').tabs({
