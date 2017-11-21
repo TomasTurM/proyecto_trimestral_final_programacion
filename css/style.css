@@ -2,6 +2,10 @@
 	background-color:#7986cb;
 }
 
+.background_tabInformacion {
+	background-color:white;
+}
+
 .footer {
 	position:absolute;
 	bottom:0px; 

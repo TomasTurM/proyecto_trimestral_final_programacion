@@ -30,18 +30,14 @@
     <div class="nav-content">
       <ul id="tabs_principal" class="tabs tabs-transparent row z-depth-2">
         <li class="tab col s2 m2 offset-m1"><a class="active" onclick="cargar('pag_inicio.html')">Inicio</a></li>
-        <li class="tab col s2 m2"><a onclick="cargar('pp.html')">Informacion</a></li>
+        <li class="tab col s2 m2"><a onclick="cargar('info_villada.html')">Informacion</a></li>
         <li class="tab disabled col s2 m2"><a href="#tabInscripciones">Inscripciones 2018</a></li>
         <li class="tab col s2 m2"><a href="#tabCampus">Campus Virtual</a></li>
         <li class="tab col s2 m2"><a href="#tabContactenos">Contactenos</a></li>
       </ul>
     </div>
   </nav>
-  <div id="tabInicio" class="background_tabInicio"></div>
-  <div id="tabInformacion"></div>
-  <div id="tabInscripciones"></div>
-  <div id="tabCampus"></div>
-	<div id="tabContactenos"></div>
+  <div id="pagina"></div>
 
     <!-- Footer -->
     <footer class="page-footer indigo">
@@ -49,23 +45,18 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">ITS Villada</h5>
-            <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet risus vitae nisi rhoncus eleifend. Duis dignissim lorem ut lacus pellentesque volutpat. Nulla ullamcorper metus vitae rutrum scelerisque.</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
+            <p class="grey-text text-lighten-4">
+              <div>Camino a La Calera Km. 7 1/2.</div> 
+              <div>B° Valle Escondido C.P.:X5023AAA.</div>
+              <div>Córdoba Argentina.</div>
+              <div>Teléfono: 0054-351-4841000 / 4848200</div>
+            </p>
           </div>
         </div>
       </div>
         <div class="footer-copyright">
           <div class="container">
-            © 2017 Copyright ITS Villada
-            <a class="grey-text text-lighten-4 right" href="#!">Mas Links</a>
+            Copyright © 2010 - 2017 ITS Villada
           </div>
         </div>
     </footer>
@@ -84,7 +75,7 @@
   <script>
   $(document).ready(cargar('pag_inicio.html'));
   function cargar(pag){
-    $("#tabInicio").load(pag);  
+    $("#pagina").load(pag);  
   }
   </script>
 
