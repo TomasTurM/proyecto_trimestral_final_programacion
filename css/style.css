@@ -97,6 +97,14 @@
 	margin-left:15px;
 }
 
+.font_info {
+	font-size:115%;
+}
+
+.font_color {
+	color:#4dd0e1;
+}
+
 #chip {
 	margin-left:11.25px;
 	margin-right:11.25px; 
