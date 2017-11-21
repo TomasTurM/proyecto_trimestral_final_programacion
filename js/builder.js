@@ -1,32 +1,34 @@
 // Esqueleto Anuncio
 var anuncio = {
 	"anuncios": [
-		{"titulo": "Titulo",
-		"fecha": "20/11/17",
-		"hora": "18:53",
-		"publicador": "Tomas Monier",
-		"contenido": "Contenido Contenido Contenido Contenido Contenido",
-		"arch_adj": [{
-			/*"src": "";*/
-			"peso": ""
-		}],
-		"me_gusta": null,
-		"marcado": null,
-		"comentarios": [{
-			"publicador": "Mateo Cetti",
-			"comentario": "Hola",
-			"arch_adj": [{
-				/*"src": "";*/
-				"peso": ""
-			}]
-		}
 		{
-			"publicador": "Joaquin Garcia",
-			"comentario": "Chau",
-			"arch_adj": [{}]
-		}
-		]
-		}
+			"titulo": "Titulo",
+			"fecha": "20/11/17",
+			"hora": "18:53",
+			"publicador": "Tomas Monier",
+			"contenido": "Contenido Contenido Contenido Contenido Contenido",
+			"arch_adj": [{
+				/*"src": "",*/
+				"peso": "2.5 Mb"	
+			}],
+			"me_gusta": null,
+			"marcado": null,
+			"comentarios": [
+				{
+					"publicador": "Mateo Cetti",
+					"comentario": "Hola",
+					"arch_adj": [{
+						/*"src": "",*/
+						"peso": "2.5 Mb"
+					}]
+				},
+				{
+					"publicador": "Joaquin Garcia",
+					"comentario": "Chau",
+					"arch_adj": [],
+				},
+				],
+		},
 	]
 };
 
@@ -35,7 +37,7 @@ function displayArchAdj(anun) {
 		if(anun["arch_adj"].length != 0) {
 			$(".style_anuncios:last").append(inicioArchAdj_anuncio);
 			for(var x in anun["arch_adj"]) {
-				$("#row_file").append(archAdj_anuncio.replace("%peso_arch%", anun["arch_adj"][x]));
+				$("#row_file").append(archAdj_anuncio.replace("%peso_arch%", anun["arch_adj"][x].peso));
 			}
 		}
 	}
@@ -81,5 +83,3 @@ function displayAnuncios() {
 		$(".style_anuncios:last").append(input_comentario);
 	}
 }
-
-displayAnuncios();

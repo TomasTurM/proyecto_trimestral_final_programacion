@@ -9,12 +9,7 @@ var config = {
 };
 
 $(document).ready(firebase.initializeApp(config));
-  $(document).ready(function(){
-    $('#tabs_principal').tabs({
-    	swipeable:true;
-    });
-});
 
 $(document).ready(function(){
-  $('.parallax').parallax();
+      $('.parallax').parallax();
 });

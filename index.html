@@ -31,9 +31,9 @@
       <ul id="tabs_principal" class="tabs tabs-transparent row z-depth-2">
         <li class="tab col s2 m2 offset-m1"><a class="active" onclick="cargar('pag_inicio.html')">Inicio</a></li>
         <li class="tab col s2 m2"><a onclick="cargar('info_villada.html')">Informacion</a></li>
-        <li class="tab disabled col s2 m2"><a href="#tabInscripciones">Inscripciones 2018</a></li>
-        <li class="tab col s2 m2"><a href="#tabCampus">Campus Virtual</a></li>
-        <li class="tab col s2 m2"><a href="#tabContactenos">Contactenos</a></li>
+        <li class="tab disabled col s2 m2"><a >Inscripciones 2018</a></li>
+        <li class="tab col s2 m2"><a >Campus Virtual</a></li>
+        <li class="tab col s2 m2"><a >Contactenos</a></li>
       </ul>
     </div>
   </nav>
@@ -73,10 +73,27 @@
   <script type="text/javascript" src="js/helper.js"></script>
   <script type="text/javascript" src="js/builder.js"></script>
   <script>
-  $(document).ready(cargar('pag_inicio.html'));
+  $(function() {
+    cargar('pag_inicio.html');
+    $(function(){
+      displayAnuncios();
+    });
+  });
   function cargar(pag){
     $("#pagina").load(pag);  
-  }
+    $(function(){
+      switch(pag) {
+          case "pag_inicio.html":
+              displayAnuncios();
+              break;
+          case "info_villada.html":
+              $('.parallax').parallax();
+              break;
+          default:
+              console.log("resto");
+      }
+    });
+  };
   </script>
 
 </body>
