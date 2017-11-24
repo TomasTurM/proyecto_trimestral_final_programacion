@@ -78,7 +78,7 @@ function displayArchAdj(anun, id) {
 			}
 		}
 	}
-}
+};
 
 /*function displayArchAdjComentario(anun) {
 	if(anun != undefined) {
@@ -99,7 +99,7 @@ function displayArchAdjComentario(anun, id) {
 			}
 		}
 	}
-}
+};
 
 /* Por Clase */
 /*function displayComentarios(anun) {
@@ -130,7 +130,7 @@ function displayComentarios(anun, id) {
 			}
 		}
 	}
-}
+};
 
 function displayAnuncios() {
 	/* Por Clase */
@@ -168,4 +168,4 @@ function displayAnuncios() {
 		displayComentarios(a, val);
 		$(id).append(input_comentario);
 	}
-}
+};
