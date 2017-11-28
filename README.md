@@ -31,7 +31,7 @@ mas fluida
 - **Seccion de Contacto:** Aqui los visitantes podran encontran los recursos necesarios para poder comunicarse con la institucion por los medios disponibles o para ubicar en el mapa a la escuela
 
 ### **Ventanas Creadas (Producto Final):**
-**Pagina Inicio:**
+#### **Pagina Inicio:**
 ![alt text](src/img/Pagina_Inicio.png "Pagina Principal")]
 Es la pagina principal, donde se encontraran los ultimos anuncios hechos por la institucion, los cuales estan guardados en una base de datos (Firebase Realtime Database), y se podran acceder a otras opciones o ventanas de la pagina. 
 **Barra de Navegacion:**
@@ -45,15 +45,15 @@ Es la pagina principal, donde se encontraran los ultimos anuncios hechos por la 
 **Footer:**
 - Al final de la pagina, se vera un "Footer" donde hay informacion resumida de contacto con el instituto, y un boton para subirla a la base de datos y verla por la Pagina Principal
 
-**Informacion:**
+#### **Informacion:**
 ![alt text](src/img/Informacion.png "Informacion")
 Los visitantes podran tener acceso a informacion basica de la institucion mediante esta ventana. Mientras vayan bajando, veran informacion e imagenes de los objetivos, especialidades y actividades del ITS Villada
 
-**Contactenos:**
+#### **Contactenos:**
 ![alt text](src/img/Contactenos.png "Contactenos")
 Por si necesita comunicarse con la institucion, en esta ventana encontrara un mapa con la ubicacion del ITS Villada y tambien su respectivo telefono
 
-**Escritor de Anuncios:**
+#### **Escritor de Anuncios:**
 ![alt text](src/img/Escritor_de_Anuncios_1.png "Escritor de Anuncios")
 Por esta pagina se crean y se publican nuevos anuncios, que apareceran por la Pagina Principal, mediante un formulario
 ![alt text](src/img/Escritor_de_Anuncios_2.png "Escritor de Anuncios")
