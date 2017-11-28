@@ -2,7 +2,7 @@
 ---
 #### **Alumno:** Monier Tomas
 #### **Curso:** 5ºC
-#### **Materia:** Sistemas de Informacion
+#### **Materias:** Programacion II / Sistemas de Informacion
 
 ---
 
