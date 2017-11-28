@@ -51,18 +51,18 @@ Es la pagina principal, donde se encontraran los ultimos anuncios hechos por la 
 
 ### **Informacion:**
 ![alt text](src/img/Informacion.png "Informacion")
-Los visitantes podran tener acceso a informacion basica de la institucion mediante esta ventana. Mientras vayan bajando, veran informacion e imagenes de los objetivos, especialidades y actividades del ITS Villada
+- Los visitantes podran tener acceso a informacion basica de la institucion mediante esta ventana. Mientras vayan bajando, veran informacion e imagenes de los objetivos, especialidades y actividades del ITS Villada
 
 ### **Contactenos:**
 ![alt text](src/img/Contactenos.png "Contactenos")
-Por si necesita comunicarse con la institucion, en esta ventana encontrara un mapa con la ubicacion del ITS Villada y tambien su respectivo telefono
+- Por si necesita comunicarse con la institucion, en esta ventana encontrara un mapa con la ubicacion del ITS Villada y tambien su respectivo telefono
 
 ### **Escritor de Anuncios:**
 ![alt text](src/img/Escritor_de_Anuncios_1.png "Escritor de Anuncios")
-Por esta pagina se crean y se publican nuevos anuncios, que apareceran por la Pagina Principal, mediante un formulario
+- Por esta pagina se crean y se publican nuevos anuncios, que apareceran por la Pagina Principal, mediante un formulario
 ![alt text](src/img/Escritor_de_Anuncios_2.png "Escritor de Anuncios")
-Tambien, si el usuario lo requiere, puede ver los anuncios que estan actualmente subidos a la base de datos y que tambien son visibles en la Pagina Principal
-Mediante el boton de "VOLVER A LA PAGINA PRINCIPAL", el usuario podra volver a la pagina principal de la institucion
+- Tambien, si el usuario lo requiere, puede ver los anuncios que estan actualmente subidos a la base de datos y que tambien son visibles en la Pagina Principal
+- Mediante el boton de "VOLVER A LA PAGINA PRINCIPAL", el usuario podra volver a la pagina principal de la institucion
 
 ### **Dependencias:**
 - JQuery v3.2.1 
