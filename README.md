@@ -10,7 +10,7 @@
 Pagina informativa e interactiva del colegio ITS Villada
 
 ### **Objetivo:**
-Crear una pagina web HTML, utilizando como recursos CCS y JavaScript, en la cual se
+Crear una pagina web HTML, utilizando como recursos CSS y JavaScript, en la cual se
 muestren los datos principales de la institucion de manera simple tanto para los alumnos y sus
 padres como para los nuevos visitantes que esten interesados en inscribirse en el Villada. Tambien
 se pondra a disposicion un campus virtual donde los la institucion y los docentes podran
