@@ -31,7 +31,7 @@ mas fluida
 
 ### **Ventanas Creadas (Producto Final):**
 **Pagina Inicio:**
-![alt text](src/img/Pagina Inicio.png "Pagina Principal")]
+![alt text](src/img/Pagina_Inicio.png "Pagina Principal")]
 Es la pagina principal, donde se encontraran los ultimos anuncios hechos por la institucion, los cuales estan guardados en una base de datos (Firebase Realtime Database), y se podran acceder a otras opciones o ventanas de la pagina. 
 **Barra de Navegacion:**
 - Es la parte superior de la pagina, donde podemos acceder a las otras ventanas de la pagina
@@ -53,9 +53,9 @@ Los visitantes podran tener acceso a informacion basica de la institucion median
 Por si necesita comunicarse con la institucion, en esta ventana encontrara un mapa con la ubicacion del ITS Villada y tambien su respectivo telefono
 
 **Escritor de Anuncios:**
-![alt text](src/img/Escritor de Anuncios_1.png "Escritor de Anuncios")
+![alt text](src/img/Escritor_de_Anuncios_1.png "Escritor de Anuncios")
 Por esta pagina se crean y se publican nuevos anuncios, que apareceran por la Pagina Principal, mediante un formulario
-![alt text](src/img/Escritor de Anuncios_2.png "Escritor de Anuncios")
+![alt text](src/img/Escritor_de_Anuncios_2.png "Escritor de Anuncios")
 Tambien, si el usuario lo requiere, puede ver los anuncios que estan actualmente subidos a la base de datos y que tambien son visibles en la Pagina Principal
 Mediante el boton de "VOLVER A LA PAGINA PRINCIPAL", el usuario podra volver a la pagina principal de la institucion
 
