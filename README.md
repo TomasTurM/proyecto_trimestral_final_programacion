@@ -32,7 +32,7 @@ mas fluida
 
 ### **Ventanas Creadas (Producto Final):**
 ### **Pagina Inicio:**
-![alt text](src/img/Pagina_Inicio.png "Pagina Principal")]
+![alt text](src/img/Pagina_Inicio.png "Pagina Principal")
 - Es la pagina principal, donde se encontraran los ultimos anuncios hechos por la institucion, los cuales estan guardados en una base de datos (Firebase Realtime Database), y se podran acceder a otras opciones o ventanas de la pagina. 
 
 **Barra de Navegacion:**
