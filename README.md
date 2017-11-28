@@ -24,11 +24,11 @@ docentes puedan interactuar y asi mejorar la comunicación entre ellos para una 
 mas fluida
 
 ### **Ideas de secciones planteadas (Ideas Iniciales):**
-**Ventana Principal:**  Se mostraran los datos mas relevantes, las ultimas novedades y los accesos a las otras secciones
-**Seccion Informativa:** Conjunto de paginas que ofrezcan de manera simple y efectiva la mayor cantidad de infomacion disponible del colegio a los nuevos visitantes
-**Seccion de Inscripcion:** Paginas que permitan el inicio del proceso de inscripcion de un nuevo alumno. Estas permiten la introduccion de informacion, especificada por la institucion, mediante cuestionarios para permitir la inscripcion
-**Seccion alumnos y docentes (Campus Virtual):** Consiste en toda un area de paginas supervisada por los responsables de la pagina y los docentes para la transmicion de tareas, eventos o comunicados a todo el alumnado. Ademas, los alumnos podran comunicarles sus dudas a los docentes en cualquier momento
-**Seccion de Contacto:** Aqui los visitantes podran encontran los recursos necesarios para poder comunicarse con la institucion por los medios disponibles o para ubicar en el mapa a la escuela
+- **Ventana Principal:**  Se mostraran los datos mas relevantes, las ultimas novedades y los accesos a las otras secciones
+- **Seccion Informativa:** Conjunto de paginas que ofrezcan de manera simple y efectiva la mayor cantidad de infomacion disponible del colegio a los nuevos visitantes
+- **Seccion de Inscripcion:** Paginas que permitan el inicio del proceso de inscripcion de un nuevo alumno. Estas permiten la introduccion de informacion, especificada por la institucion, mediante cuestionarios para permitir la inscripcion
+- **Seccion alumnos y docentes (Campus Virtual):** Consiste en toda un area de paginas supervisada por los responsables de la pagina y los docentes para la transmicion de tareas, eventos o comunicados a todo el alumnado. Ademas, los alumnos podran comunicarles sus dudas a los docentes en cualquier momento
+- **Seccion de Contacto:** Aqui los visitantes podran encontran los recursos necesarios para poder comunicarse con la institucion por los medios disponibles o para ubicar en el mapa a la escuela
 
 ### **Ventanas Creadas (Producto Final):**
 **Pagina Inicio:**
