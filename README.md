@@ -2,6 +2,7 @@
 ---
 #### **Alumno:** Monier Tomas
 #### **Curso:** 5ºC
+#### **Materia:** Sistemas de Informacion
 
 ---
 
@@ -68,3 +69,7 @@ http://materializecss.com/getting-started.html
 https://console.firebase.google.com/
 - Google Map API
 - Google Calendar API
+
+### **Links Adicionales:**
+- Trello
+https://trello.com/b/PH7kDcuU/proyectoprogramacionfinalhtml-css-js
