@@ -19,4 +19,6 @@ var publicador_comentario = '<div class="row white menos_bottom"><div id="chip_c
 var inicioArchAdj_comentario = '<div id="row_comment_file %id_arch_adj%" class="row sin_margen"></div>';
 var archAdj_comentario = '<ul class="collection col s3"><li class="collection-item"><div><span class="title">Archivo Adjunto</span><span>%peso_arch%</span><a href="#!" class="secondary-content"><i class="material-icons">file_download</i></a></div></li></ul>';
 
-var input_comentario = '<div id="padding_text" class="row"><div class="input-field col s10"><textarea id="text_comment" class="materialize-textarea" data-length="500"></textarea><label for="text_comment">Comentar...</label></div><div class="col s2"><div class="row"><i class="material-icons right">close</i></div><div class="row"><button class="btn waves-effect waves-light" type="submit" name="action">Comentar<i class="material-icons right">send</i></button></div></div></div>';
+/*var inicio_input_comentario = '<div id="padding_text %id_init_com%" class="row"></div>';
+var input_comentar = '<div class="input-field col s10"><textarea id="text_comment-%id_text%" class="materialize-textarea" data-length="500"></textarea><label for="text_comment">Comentar...</label></div>';
+var boton_comentar = '<div class="col s2"><div class="row"><i class="material-icons right">close</i></div><div class="row"><button class="btn waves-effect waves-light" type="submit" name="action" onclick="subir_comentario(%id_boton%)">Comentar<i class="material-icons right">send</i></button></div></div>';*/

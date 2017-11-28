@@ -1,3 +1,4 @@
+/* CLASES */
 .background_tabInicio {
 	background-color:#7986cb;
 }
@@ -27,7 +28,7 @@
 }
 
 .texto_itsv {
-	margin-top:42.5px; 
+	margin-top:35px; 
 }
 
 .frase_itsv {
@@ -54,10 +55,6 @@
 	margin-left:85px;
 	margin-right:85px; 
 	padding-bottom:15px; 
-}
-
-#boton_enviar {
-	margin: 0 auto !important;
 }
 
 .margin_5px {
@@ -101,8 +98,25 @@
 	font-size:115%;
 }
 
+.font_frase{
+	font-size:125%; 
+}
+
 .font_color {
-	color:#4dd0e1;
+	background-color:white; 
+}
+
+.font_contacto {
+	font-size:120%; 
+}
+
+.margen_top {
+	margin-top:20px; 
+}
+
+/* IDs */
+#boton_enviar {
+	margin: 0 auto !important;
 }
 
 #chip {
@@ -140,6 +154,21 @@
 	height:400px; 
 }
 
+#map {
+	height:400px;
+}
+
+#padding_contactenos {
+	padding-top:25px;
+	padding-bottom:25px;  
+}
+
+#tamaño_telefono {
+	height:350px; 
+	width:350px;
+}
+
+/* TAGS */
 li {
 	margin-top:2.5px; 
 	margin-bottom:2.5px;

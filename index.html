@@ -21,12 +21,12 @@
 	<nav class="nav-extended indigo darken-2">
 		<div class="nav-wrapper">
       <div class="row sin_margen">
-        <div class="col s2">
-          <img src="src/img/logo.png" alt="Logo ITSV" class="white logo_itsv valign-wrapper center-align hoverable">
+        <div class="col xl3">
+          <img src="src/img/logo.png" alt="Logo ITSV" class="logo_itsv valign-wrapper center-align">
         </div>
-        <div class="col s10 left-align">
-          <div class="container">
-            <h3 class="white-text text-lighten-1 texto_itsv">Instituto Tecnico Salesiano Villada</h3>
+        <div class="col l6 xl9 left-align">
+          <div class="">
+            <h2 class="white-text text-lighten-1 texto_itsv">Instituto Tecnico Salesiano Villada</h2>
             <h5 class="white-text text-lighten-1 frase_itsv">Formando Buenos Cristianos, Honrados Ciudadanos y Eficientes Técnicos para el Servicio</h5>
           </div>
         </div>
@@ -34,11 +34,10 @@
 		</div>
     <div class="nav-content">
       <ul id="tabs_principal" class="tabs tabs-transparent row z-depth-2">
-        <li class="tab col s2 m2 offset-m1"><a class="active" onclick="cargar('pag_inicio.html')">Inicio</a></li>
-        <li class="tab col s2 m2"><a onclick="cargar('info_villada.html')">Informacion</a></li>
-        <li class="tab disabled col s2 m2"><a >Inscripciones 2018</a></li>
-        <li class="tab col s2 m2"><a >Campus Virtual</a></li>
-        <li class="tab col s2 m2"><a >Contactenos</a></li>
+        <li class="tab col s2 xl2 offset-xl2"><a class="active" onclick="cargar('pag_inicio.html')">Inicio</a></li>
+        <li class="tab col s2 xl2"><a onclick="cargar('info_villada.html')">Informacion</a></li>
+        <li class="tab disabled col s2 xl2"><a>Inscripciones 2018 (No disponible)</a></li>
+        <li class="tab col s2 xl2"><a onclick="cargar('contactenos.html')">Contactenos</a></li>
       </ul>
     </div>
   </nav>
@@ -48,7 +47,7 @@
     <footer class="page-footer indigo">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
+          <div class="col l6">
             <h5 class="white-text">ITS Villada</h5>
             <p class="grey-text text-lighten-4">
               <div>Camino a La Calera Km. 7 1/2.</div> 
@@ -57,13 +56,22 @@
               <div>Teléfono: 0054-351-4841000 / 4848200</div>
             </p>
           </div>
-        </div>
-      </div>
-        <div class="footer-copyright">
-          <div class="container">
-            Copyright © 2010 - 2017 ITS Villada
+          <div class="col l6">
+            
           </div>
         </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container row">
+          <div class="col left-align">
+            Copyright © 2010 - 2017 ITS Villada
+          </div>
+          <div class="col right">
+            <a class="waves-effect waves-light btn-large red lighten-1 right" href="writer_anuncios.html">PUBLICAR UN ANUNCIO</a>
+          </div>  
+        </div>
+
+      </div>
     </footer>
 
 
@@ -75,29 +83,69 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/helper.js"></script>
-  <script type="text/javascript" src="js/builder.js"></script>
+  <!--<script type="text/javascript" src="js/builder.js"></script>-->
+  <script type="text/javascript" src="js/firebase.js"></script>
+
+  <!-- Inicializacion Google Map -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCOy8lou-v060_7ud5dW8jzB6AHGixS3I&callback=initMap">
+  </script>
+  <script>
+  function initMap() {
+  var itsv = {lat: -31.363670, lng: -64.277229};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: itsv
+  });
+  var marker = new google.maps.Marker({
+    position: itsv,
+    map: map
+  });
+  }
+  </script>
+
+  <script type="text/javascript">
+
+  </script>
+
   <script>
   $(function() {
     cargar('pag_inicio.html');
     $(function(){
-      displayAnuncios();
+      //displayAnuncios();
+      get_datos();
+      modal();
     });
   });
+
   function cargar(pag){
     $("#pagina").load(pag);  
     $(function(){
       switch(pag) {
-          case "pag_inicio.html":
-              displayAnuncios();
-              break;
-          case "info_villada.html":
-              $('.parallax').parallax();
-              break;
-          default:
-              console.log("resto");
+        case "pag_inicio.html":
+            //displayAnuncios();
+            get_datos();
+            modal();
+            break;
+        case "info_villada.html":
+            $('.parallax').parallax();
+            break;
+        case "contactenos.html":
+            initMap();
+            break;
+        default:
+            console.log("No Break");
       }
     });
   };
+
+  /* Inicializacion Modal */
+  function modal() {
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  };
+
   </script>
 
 </body>
